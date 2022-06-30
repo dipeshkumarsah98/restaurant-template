@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Lovers+Quarrel&display=swap');
+.contact-box {
+    background-color: rgb(34, 32, 32);
+    height: 100%;
+    height: 80%;
+    padding-top: 3%;
+}
+
+.contact-box .container {
+    padding: 5% 0;
+}
+
+.reservation {
+    background-color: white;
+    border-radius: 10px;
+}
+
+.contact {
+    padding: 12px 20px;
+    background-color: white;
+    margin: 0 12px;
+    border-radius: 5px;
+}
+
+.contact-page .heading-section {
+    color: white;
+}
+
+.subheading {
+    font-family: 'lovers quarrel', cursive;
+    font-size: 45px;
+    color: #f67979;
+    position: relative;
+    margin-bottom: -20px;
+}
+
+.discription {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+h2 {
+    font-weight: bold;
+}
+
+@media (max-width: 700) {
+    .contact {
+        width: 40%;
+    }
+}

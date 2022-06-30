@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto:wght@300&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'roboto', Arial, Helvetica, sans-serif;
+}
+
+
+/* list of product */
+
+.col .card:hover {
+    cursor: pointer;
+    background-color: #f0ecec;
+    transition: 0.5s ease 0s;
+}
+
+.blur {
+    position: absolute;
+    width: 22rem;
+    height: 14rem;
+    border-radius: 50%;
+    filter: blur(212px);
+    z-index: -9;
+    filter: blur(72%);
+    overflow: hidden;
+}
+
+.title {
+    font-weight: bold;
+}
+
+.card {
+    border-radius: 20px;
+}
+
+.p-blur {
+    background: #d43245;
+    top: 50%;
+    left: 69%;
+    z-index: 2;
+    width: 20%;
+}
+
+.p-blur2 {
+    background: #cf9696;
+    top: 49%;
+    left: 3%;
+    width: 40%;
+    z-index: 2;
+}
+
+.p-blur3 {
+    background: #FAD4D4;
+    top: -20%;
+    left: -15%;
+    z-index: 2;
+}
+
+.d-blur {
+    background: #EF9F9F;
+    top: -2%;
+    left: 45%;
+    width: 40%;
+    z-index: 2;
+}
+
+.custom {
+    z-index: 5;
+    font-family: 'Poppins';
+    font-weight: 300;
+    font-size: 50px;
+}
+
+.row a {
+    text-decoration: none;
+    color: inherit;
+}
+
+@media (min-width: 500px)and (max-width: 1200px) {
+    html,
+    body {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        overflow-x: hidden;
+    }
+}
+
+@media (max-width: 499px) {
+    html,
+    body {
+        width: 130% !important;
+    }
+    .row .custom {
+        font-size: 35px;
+    }
+    .row .d-blur {
+        top: 63% !important;
+        left: 75%;
+    }
+}

@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto:wght@300&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'roboto', Arial, Helvetica, sans-serif;
+}
+
+
+/* Nav bar starts */
+
+.home_menu {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    position: fixed;
+}
+
+.main_menu .main-menu-item {
+    text-align: center!important;
+    justify-content: center!important;
+    padding-right: 100px;
+}
+
+.navbar-brand img {
+    max-width: 50px;
+    vertical-align: middle;
+    border-style: none;
+}
+
+.main_menu .navbar-brand {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.navbar-light .navbar-brand {
+    color: rgba(0, 0, 0, .9);
+}
+
+.navbar-nav .nav-link {
+    color: black;
+    font-size: 25px;
+    font-family: "roboto", serif;
+    font-weight: 400;
+    padding: 0 22px!important;
+}
+
+.main_menu .main-menu-item ul li a:hover {
+    color: white !important;
+    transition: 0.4s ease 0s;
+}
+
+.align-item-center {
+    align-items: center !important;
+}
+
+.navbar-nav .active {
+    color: blue !important;
+    font-weight: bold;
+}
+
+
+/* pc view */
+
+@media (min-width: 850px)and (max-width: 1390px) {
+    html,
+    body {
+        width: 100vw;
+        overflow-x: hidden;
+    }
+    .custom {
+        font-size: 40px;
+    }
+}
+
+
+/* tablet view */
+
+@media (min-width: 768px)and (max-width: 849px) {
+    html,
+    body {
+        width: 100vw;
+        overflow-x: hidden;
+    }
+    .custom {
+        font-size: 30px;
+    }
+}
+
+
+/* Mobile view */
+
+@media (min-width: 0px) and (max-width: 767px) {
+    html,
+    body {
+        width: 105%;
+        overflow-x: hidden;
+    }
+    .custom {
+        font-size: 10px;
+    }
+}
+
+
+/* nav bar ends */
+
+
+/* about dating starts */
+
+.about-section {
+    padding-top: 5%;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+
+.about-title {
+    font-family: 'Poppins';
+    font-weight: 300;
+    font-size: 50px;
+}
+
+.about-discription {
+    font-family: 'Poppins';
+    font-size: 20px;
+}
+
+.dating img {
+    height: 95%;
+    width: 65%;
+    margin-left: 120px;
+}
+
+.blur {
+    position: absolute;
+    width: 22rem;
+    height: 14rem;
+    border-radius: 50%;
+    filter: blur(212px);
+    z-index: -9;
+    filter: blur(72%);
+    overflow: hidden;
+}
+
+.a-blur {
+    background: #da884d;
+    top: 4%;
+    left: 22%;
+}
+
+.d-blur {
+    background: #9932d4;
+    top: 18%;
+    left: 56%;
+}
+
+@media (max-width: 650px) {
+    html,
+    body {
+        width: 130% !important;
+    }
+    .about-title {
+        font-size: 30px;
+    }
+    .about-discription {
+        font-size: 12px;
+    }
+    .dating img {
+        height: 40vh;
+        margin-left: 50px;
+    }
+}
+
+
+/* about-dating ends */
+
+
+/* Product list starts */
+
+#product {
+    height: 80% !important;
+    padding-top: 80px;
+}
+
+.col .card:hover {
+    cursor: pointer;
+    background-color: #f0ecec;
+    transition: 0.5s ease 0s;
+}
+
+.card-body>*:hover {
+    cursor: pointer;
+}
+
+.title {
+    font-weight: bold;
+}
+
+.card {
+    border-radius: 20px;
+}
+
+.p-blur {
+    background: #d43245;
+    top: 32%;
+    left: 55%;
+    z-index: 2;
+}
+
+.p-blur2 {
+    background: #c47f87;
+    top: 36%;
+    left: 11%;
+    z-index: 2;
+}
+
+.p-blur3 {
+    background: #ff9898ad;
+    top: -20%;
+    left: -15%;
+    z-index: 2;
+}
+
+.custom {
+    z-index: 5;
+    font-family: 'Poppins';
+    font-weight: 300;
+    font-size: 50px;
+}
+
+.row a {
+    text-decoration: none;
+    color: inherit;
+}
+
+@media (min-width: 500px)and (max-width: 1200px) {
+    .p-blur {
+        top: 80%;
+        left: 26%;
+    }
+    .p-blur2 {
+        left: 30%;
+    }
+    .p-blur3 {
+        top: -6%;
+        left: -5%;
+    }
+}
+
+@media (min-width: 500px) {
+    .p-blur2 {
+        top: 23%;
+    }
+}
+
+
+/* Footer */
+
+.site-footer {
+    background: rgba(253, 93, 93, 0.8);
+    font-size: 14px;
+    color: #fff;
+    padding: 70px 0;
+}
+
+.site-footer .widget li a {
+    color: rgba(255, 255, 255, .5);
+    text-decoration: none;
+}
+
+.site-footer .widget li a:hover {
+    color: #fff;
+}
+
+.site-footer .social li {
+    display: inline-block;
+    font-size: 30px;
+    padding-right: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}

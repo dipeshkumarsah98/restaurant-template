@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto:wght@300&display=swap');
+.form-view {
+    height: 100vh;
+}
+
+.image {
+    background-image: url(../img/food3.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.login-section {
+    padding: 7em 0;
+    font-family: 'Roboto';
+}
+
+.heading-section {
+    position: relative;
+    font-size: 31px;
+    font-family: 'Poppins';
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+}
+
+.login-wrap {
+    position: relative;
+    color: rgb(0, 0, 0);
+}
+
+.login-wrap h3 {
+    color: rgb(0, 0, 0);
+    font-weight: 300;
+}
+
+.form-group {
+    position: relative;
+    margin-bottom: 1rem;
+    z-index: 2;
+}
+
+.form-control {
+    /* background: transparent; */
+    border: none;
+    height: 50px;
+    color: black !important;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    transition: 0.3s ease 0s;
+}
+
+.form-control:focus {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.field-icon {
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+    color: rgba(12, 8, 8, 0.9);
+}
+
+.field-icon:hover {
+    cursor: pointer;
+}
+
+.btn.btn-primary {
+    background: rgba(8, 23, 243, 0.7) !important;
+    border: 1px solid #3e07f3 !important;
+    color: #fff !important;
+}
+
+.btn.btn-primary:hover {
+    background: rgba(8, 23, 243, 1) !important;
+    transition: 0.3s ease 0s;
+}
+
+.checkbox-primary {
+    color: rgba(8, 23, 243, 0.7);
+}
+
+.checkbox-wrap {
+    display: block;
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    user-select: none;
+}
+
+.login-wrap .social a {
+    width: 100%;
+    display: block;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    color: #000;
+    background: #fff;
+    font-weight: bold;
+    margin-left: 10px;
+    z-index: 2;
+}
+
+.login-wrap .social a:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    transition: 0.3s ease 0s;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(8, 23, 243, 0.7);
+    font-weight: 300;
+}
+
+.form-group .key a:hover {
+    color: rgba(8, 23, 243, 1);
+}
+
+.signin-form {
+    padding: 0 10px;
+}
+
+.blur {
+    position: absolute;
+    width: 22rem;
+    height: 14rem;
+    border-radius: 50%;
+    filter: blur(212px);
+    z-index: -9;
+    filter: blur(72%);
+    overflow: hidden;
+}
+
+.f-blur {
+    background: #da884d;
+    top: 64%;
+    left: 22%;
+    z-index: 1;
+}

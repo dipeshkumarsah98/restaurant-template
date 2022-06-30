@@ -1,0 +1,27 @@
+.site-footer {
+    background: #645f56;
+    font-size: 14px;
+    color: #fff;
+    padding: 70px 0;
+}
+
+li a {
+    color: rgba(255, 255, 255, .5);
+    text-decoration: none;
+}
+
+li a:hover,
+a:hover {
+    color: #fff;
+}
+
+.site-footer .social li {
+    display: inline-block;
+    font-size: 30px;
+    padding-right: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
